@@ -13,7 +13,7 @@ jobs:
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
 
       - name: Geetings
-        uses: ./.github/actions/greetings
+        uses: cchanka/github-actions-android-workflows/.github/actions/greetings@master
         with:
           who-to-greet: 'Chanka Dod'
 
