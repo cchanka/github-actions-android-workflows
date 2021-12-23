@@ -15,7 +15,7 @@ jobs:
       - name: Geetings
         uses: cchanka/github-actions-android-workflows/.github/actions/greetings@main
         with:
-          who-to-greet: 'Chanka Dod'
+          who-to-greet: 'Nagarro'
 
       - name: Setup JAVA
         uses: actions/setup-java@v1
